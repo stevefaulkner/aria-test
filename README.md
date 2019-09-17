@@ -46,7 +46,7 @@ Running "prompt:init" (prompt) task
   All of the Above (Mega)
 ```
 
-### Notes
+### Note
 On Bash command shell, the arrow, indicating which grunt task is selected, is not visible. However, on PowerShell, the arrow is visible.
 
 
