@@ -54,7 +54,7 @@ The next Grunt task takes each HTML page and sends this HTML,more precisely, its
 
 The final Grunt task is flagging test cases where the Nu Validator incorrectly assessed an ARIA attribute. The Nu Validator should match the rules set in the `/src/elements-roles.json` and `/src/roles-states.json`.
 
-The JSON files must be periodically updated to reflect updates to ARIA.
+The JSON files must be periodically updated to reflect updates to ARIA and accepted roles.
 
 [aria]: https://www.w3.org/TR/html-aria/
 [nuvalidator]: https://validator.w3.org/nu/
