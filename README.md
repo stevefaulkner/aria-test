@@ -46,6 +46,10 @@ Running "prompt:init" (prompt) task
   All of the Above (Mega)
 ```
 
+### Notes
+On Bash command shell, the arrow, indicating which grunt task is selected, is not visible. However, on PowerShell, the arrow is visible.
+
+
 ## How It Works
 
 Grunt is a runtime environment for automating tasks. The first Grunt task is to create a page for each HTML element with individual test cases for every ARIA=* and role attribute. These unique pages are built out of Handlebars templates in `/src/templates`.
@@ -58,3 +62,4 @@ The JSON files must be periodically updated to reflect updates to ARIA and accep
 
 [aria]: https://www.w3.org/TR/html-aria/
 [nuvalidator]: https://validator.w3.org/nu/
+
