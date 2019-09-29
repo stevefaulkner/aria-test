@@ -34,8 +34,8 @@
   {{#each validatorMistakes as |element elementId|}}
     <h2>{{element.name}}</h2>
     <ul>
-      <li><a href="testcases/{{elementId}}-test.html">Test Case for {{element.name}}</a></li>
-      <li><a href="validation/{{elementId}}-test.html.json">Validation results for {{element.name}}</a></li>
+      <li><a href="dist/testcases/{{elementId}}-test.html">Test Case for {{element.name}}</a></li>
+      <li><a href="dist/validation/{{elementId}}-test.html.json">Validation results for {{element.name}}</a></li>
     </ul>
     <h3>Mistakes made by validator:</h3>
     <ol class="mistakes">
